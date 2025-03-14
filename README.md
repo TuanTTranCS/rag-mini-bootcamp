@@ -20,6 +20,7 @@ Understanding Naive RAG architecture is the first step towards understanding mor
 ├── 5 summary.ipynb  # Tutorial 5
 ├── LICENSE
 ├── README.md
+├── naveRagGui.py # Demo GUI by Tuan Tran
 ├── cheat_code  # Completed, working code you can cheat off of if you get stuck
 ├── data  # Nothing useful in here for now
 ├── requirements.txt  # Python packages
