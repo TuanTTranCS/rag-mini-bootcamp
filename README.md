@@ -1,4 +1,8 @@
-# RAG Mini Bootcamp
+
+# Building a Naive RAG application from scratch - with a Demo GUI
+
+_(A major part of this repository was cloned from [Toby's RAG Mini Bootcamp](https://github.com/tobkin/rag-mini-bootcamp))_
+
 In this pilot course, you'll build a Naive RAG-based question-answer agent that supports the following HTML documents:
 - [Retrieval-Augmented Generation for Large Language Models: A Survey](https://arxiv.org/html/2312.10997v5)
 - [LLM Powered Autonomous Agents](https://lilianweng.github.io/posts/2023-06-23-agent/)  
@@ -107,3 +111,11 @@ Couchbase Reference Docs: [Import a Search Index Definition with the Capella UI]
 Open the folder "rag-mini-bootcamp" in VSCode. Open the folder in Dev Container mode by using Cmd/Ctrl + Shift + P > Dev Containers: Open Folder in Container. The first time, the container will take some time to build while it downloads the required packages.
 
 Once the container is finished building, open `./query_qa_rag_agent.ipynb` in VSCode. Click "Run All". The notebook should display a GPT3.5 completion to the question about the paper. If you get an error, try to diagnose it or flag one of us for help.
+
+# Demo App
+
+To run the demo application, type in the terminal:
+
+```bash
+python naveRagGui.py
+```
